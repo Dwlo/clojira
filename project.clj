@@ -3,12 +3,12 @@
   :url "http://clojira.com"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.8.0"]
-                 [clj-http            "1.0.1"]
+  :dependencies [[org.clojure/clojure "1.11.1"]
+                 [clj-http            "3.9.0"]
                  [cheshire            "5.4.0"]
                  [doric               "0.9.0"]
                  [stencil             "0.5.0"]
                  [im.chit/cronj       "1.4.3"]
-                 [com.draines/postal  "1.11.3" ]
+                 [com.draines/postal  "2.0.5" ]
                  [clj-time            "0.11.0"]]
   :profiles {:dev {:dependencies [[midje "1.6.3"]]}})
